@@ -1,0 +1,274 @@
+.property-1-default,
+.property-1-default * {
+  box-sizing: border-box;
+}
+.property-1-default {
+  background: #181926;
+  width: 550px;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0.1);
+  border-width: 1px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  height: 362px;
+  position: relative;
+  box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.1);
+}
+.frame-4975 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.reset-password {
+  color: var(--white-pure, #ffffff);
+  text-align: left;
+  font-family: var(
+    --gilroy-semi-bold-h6-font-family,
+    "GothicA1-SemiBold",
+    sans-serif
+  );
+  font-size: var(--gilroy-semi-bold-h6-font-size, 20px);
+  line-height: var(--gilroy-semi-bold-h6-line-height, 124%);
+  font-weight: var(--gilroy-semi-bold-h6-font-weight, 600);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.close {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.frame-5019 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-110 {
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  box-shadow: 0px 8px 32px 0px rgba(0, 0, 0, 0.1);
+}
+.frame-80 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.enter-email {
+  color: var(--font, #ffffff);
+  text-align: left;
+  font-family: "GothicA1-SemiBold", sans-serif;
+  font-size: 14px;
+  line-height: 132%;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.group-5021 {
+  flex-shrink: 0;
+  width: 366px;
+  height: 38px;
+  position: static;
+}
+.frame-71 {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--color, #ffffff);
+  border-width: 1px;
+  opacity: 0.30000001192092896;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 251px;
+  height: 38px;
+  position: absolute;
+  left: 0px;
+  top: 26px;
+  backdrop-filter: blur(25px);
+}
+.enter-your-email {
+  color: var(--font, #ffffff);
+  text-align: left;
+  font-family: "GothicA1-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 132%;
+  font-weight: 500;
+  opacity: 0.5;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.login {
+  background: var(--background, #080808);
+  border-radius: 8px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 107px;
+  height: 36px;
+  position: absolute;
+  left: 259px;
+  top: 27px;
+}
+.send-otp {
+  color: var(--white-pure, #ffffff);
+  text-align: center;
+  font-family: var(--button-text-font-family, "OverpassMono-Bold", sans-serif);
+  font-size: var(--button-text-font-size, 14px);
+  line-height: var(--button-text-line-height, 132%);
+  font-weight: var(--button-text-font-weight, 700);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.frame-84 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.enter-one-time-password {
+  color: var(--font, #ffffff);
+  text-align: left;
+  font-family: "GothicA1-SemiBold", sans-serif;
+  font-size: 14px;
+  line-height: 132%;
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-712 {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--color, #ffffff);
+  border-width: 1px;
+  opacity: 0.30000001192092896;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 38px;
+  position: relative;
+  backdrop-filter: blur(25px);
+}
+.enter-otp {
+  color: var(--font, #ffffff);
+  text-align: left;
+  font-family: "GothicA1-Medium", sans-serif;
+  font-size: 14px;
+  line-height: 132%;
+  font-weight: 500;
+  opacity: 0.5;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-5020 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.login2 {
+  background: var(--background, #080808);
+  border-radius: 8px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  height: 36px;
+  position: relative;
+}
+.resend-otp {
+  color: var(--white-pure, #ffffff);
+  text-align: center;
+  font-family: var(--button-text-font-family, "OverpassMono-Bold", sans-serif);
+  font-size: var(--button-text-font-size, 14px);
+  line-height: var(--button-text-line-height, 132%);
+  font-weight: var(--button-text-font-weight, 700);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login3 {
+  background: #7752fe;
+  border-radius: 8px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  height: 36px;
+  position: relative;
+}
+.reset {
+  color: var(--white-pure, #ffffff);
+  text-align: center;
+  font-family: var(--button-text-font-family, "OverpassMono-Bold", sans-serif);
+  font-size: var(--button-text-font-size, 14px);
+  line-height: var(--button-text-line-height, 132%);
+  font-weight: var(--button-text-font-weight, 700);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

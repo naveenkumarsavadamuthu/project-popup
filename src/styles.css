@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+.p-accordion-header-link {
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    -webkit-user-select: none !important;
+    user-select: none !important;
+    position: relative !important;
+    text-decoration: none !important;
+    flex-direction: row-reverse !important;
+    align-content: flex-start !important;
+    justify-content: space-between !important;
+} 

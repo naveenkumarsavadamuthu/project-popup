@@ -1,0 +1,79 @@
+<div class="property-1-default">
+  <div class="frame-4975">
+    <div class="reset-password">Reset Password</div>
+    <svg
+      class="close"
+      width="20"
+      height="21"
+      viewBox="0 0 20 21"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      (click)="closeDialog()"
+    >
+      <mask
+        id="mask0_130_53888"
+        style="mask-type: alpha"
+        maskUnits="userSpaceOnUse"
+        x="0"
+        y="0"
+        width="20"
+        height="21"
+      >
+        <rect y="0.5" width="20" height="20" fill="#D9D9D9" />
+      </mask>
+      <g mask="url(#mask0_130_53888)">
+        <path
+          d="M5.33317 16.3327L4.1665 15.166L8.83317 10.4993L4.1665 5.83268L5.33317 4.66602L9.99984 9.33268L14.6665 4.66602L15.8332 5.83268L11.1665 10.4993L15.8332 15.166L14.6665 16.3327L9.99984 11.666L5.33317 16.3327Z"
+          fill="white"
+        />
+      </g>
+    </svg>
+  </div>
+  <div class="frame-5019" *ngIf="showFrame5019">
+    <div class="frame-110">
+      <div class="frame-80">
+        <div class="enter-email">Enter Email</div>
+        <div class="group-5021">
+          <div class="frame-71">
+            <div class="enter-your-email">Enter your email</div>
+          </div>
+          <div class="login">
+            <div class="send-otp">Send OTP</div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-84">
+        <div class="enter-one-time-password">Enter One time password</div>
+        <div class="frame-712">
+          <div class="enter-otp">Enter OTP</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="showInputs">
+    <div class="frame-110">
+      <div class="frame-80">
+        <div class="enter-email">Enter password</div>
+        <div class="group-5021">
+          <div class="frame-71">
+            <div class="enter-your-email">Enter confirm password</div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-84">
+        <div class="enter-one-time-password">Enter One time password</div>
+        <div class="frame-712">
+          <div class="enter-otp">Enter OTP</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="frame-5020">
+    <div class="login2">
+      <div class="resend-otp">Resend OTP</div>
+    </div>
+    <div class="login3">
+      <div class="reset" (click)="toggleInputField()">Reset</div>
+    </div>
+  </div>
+</div>
